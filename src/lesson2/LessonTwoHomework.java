@@ -1,6 +1,6 @@
-package lesson1;
+package lesson2;
 
-public class LessonOneHomework {
+public class LessonTwoHomework {
 
     public static void main(String[] args) {
 
@@ -25,5 +25,17 @@ public class LessonOneHomework {
         System.out.println("Исправленный год публикации книги " + ladyWithDog.getBookTitle()
                 + " -" + " " + ladyWithDog.getPublicationYear());
 
+        System.out.println();
+
+        System.out.println(gogol.toString());
+        System.out.println(ladyWithDog.toString());
+
+        System.out.println(gogol.equals(chehov));
+        System.out.println(ladyWithDog.equals(deadSouls));
+
+        System.out.println(gogol.hashCode());
+        System.out.println(chehov.hashCode());
+        System.out.println(ladyWithDog.hashCode());
+        System.out.println(deadSouls.hashCode());
     }
 }
